@@ -7,3 +7,11 @@ one:
 two:
   name: Duis bibendum, turpis enim blandit mi, in porttitor pede justo eu massa.
   description: In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus
+
+got:
+  name: A Game of Thrones
+  description: First book of 'A Song of Ice and Fire' series
+
+hunger_games:
+  name: Hunger Games
+  description: Written by Suzanne Collins
