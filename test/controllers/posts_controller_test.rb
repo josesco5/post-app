@@ -52,4 +52,11 @@ class PostsControllerTest < ActionDispatch::IntegrationTest
     assert_equal 422, response.status
     assert_equal Mime[:json], response.content_type
   end
+
+  test 'delete existing post' do
+    post = posts(:one)
+    delete "/api/posts/#{post.id}"
+
+    assert_equal 200, response.status
+  end
 end

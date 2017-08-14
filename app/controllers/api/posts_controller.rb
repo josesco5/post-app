@@ -18,6 +18,12 @@ module API
       end
     end
 
+    def destroy
+      post = Post.find(params[:id])
+      post.destroy
+      head 200
+    end
+
     private
 
       def post_params
